@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
           title: Text("App Refatorar"),
           backgroundColor: Colors.red,
         ),
-        body: MaisUmDia(nome: "Novo texto")
+        body: MaisUmDia(nome: "Novotexto")
       ),
     );
   }
