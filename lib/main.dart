@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projetonovo/componenteBotao.dart';
 import 'package:projetonovo/novocompontente.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
           title: Text("App Refatorar"),
           backgroundColor: Colors.red,
         ),
-        body: MaisUmDia(nome: "Novotexto")
+        body: MaisUmDia(nome: "Legal"),
       ),
     );
   }
