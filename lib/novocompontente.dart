@@ -7,9 +7,15 @@ class MaisUmDia extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text(
-        "$nome",
-        style: TextStyle(fontSize: 50),
+      child: Column(
+        children: [
+          Text(
+            "$nome",
+            style: TextStyle(fontSize: 50),
+          ),
+          ElevatedButton(onPressed: () {}, child: Text("Botão 1")),
+          TextButton(onPressed: (){}, child: Text("Botão 2"
+          
       ),
     );
   }
